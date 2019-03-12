@@ -1,44 +1,47 @@
 
-header {
-    margin:0;
+.page-top {
+    background-image: url(https://media.giphy.com/media/3o7aDcrsww5Ybp18hq/giphy.gif);
 }
+
+
+
 .page-second {
    height: 65em;
+   display: flex;
    background-image: url("https://www.technotification.com/wp-content/uploads/2018/04/software-developer-vs-software-engineer.jpg");
    background-attachment: fixed;
    background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
 }
 
 .page-top, .page-first, .page-second, .page-third {
     height: 65em;
     display: flex;
-}
-.page-top {  
-  position: relative;
-  overflow: hidden;
+    justify-content: center;
+    background-size: cover;
+   background-position: center;
+
 }
 
 .inner-top {
-    width: 100%;
-    height: 100%;
-    overflow:hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    
+    display: inline-flex;
+    justify-content: flex-end;
+    width: auto;
+    align-content: space-around;
+}
 
-    background-size: 
+.social {
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    margin:1em;
+    position: relative;
+    padding-right: 2em;
 
-    transform: scale(1.1);
-  }
-
-
+}
 
 p {
     color:red;
+    font-size: 2em;
 }
 
 
@@ -47,13 +50,13 @@ p {
 
 
 .featured {
-  width: 850px;
+  width: auto;
   margin: 0 auto;
 }
 
 @media(max-width: 800px) {
   .featured {
-    width: 300px;
+    width: auto;
   }
 }
 
@@ -77,13 +80,13 @@ p {
 }
 
 .line-d {
-  width: 500px;
+  width: auto;
   -webkit-transform: translate(150px, 0px) rotate(20deg);
   transform: translate(150px, 0px) rotate(20deg);
 }
 
 .line-e {
-  width: 700px;
+  width: auto;
   -webkit-transform: translate(70px, -30px) rotate(-5deg);
   transform: translate(70px, -30px) rotate(-5deg);
 }
