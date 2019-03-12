@@ -1,0 +1,91 @@
+
+header {
+    margin:0;
+}
+.page-second {
+   height: 65em;
+   background-image: url("https://www.technotification.com/wp-content/uploads/2018/04/software-developer-vs-software-engineer.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.page-top, .page-first, .page-second, .page-third {
+    height: 65em;
+    display: flex;
+}
+.page-top {  
+  position: relative;
+  overflow: hidden;
+}
+
+.inner-top {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+
+    background-size: 
+
+    transform: scale(1.1);
+  }
+
+
+
+p {
+    color:red;
+}
+
+
+
+
+
+
+.featured {
+  width: 850px;
+  margin: 0 auto;
+}
+
+@media(max-width: 800px) {
+  .featured {
+    width: 300px;
+  }
+}
+
+.featured-title {
+  width: 100%;
+  text-align: center;
+}
+
+.featured-title h1 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  text-transform: capitalize;
+  letter-spacing: 7px;
+}
+
+.welcome-line {
+  position: absolute;
+  height: 2px;
+  background-color: #f1e8dc;
+  z-index: -10;
+}
+
+.line-d {
+  width: 500px;
+  -webkit-transform: translate(150px, 0px) rotate(20deg);
+  transform: translate(150px, 0px) rotate(20deg);
+}
+
+.line-e {
+  width: 700px;
+  -webkit-transform: translate(70px, -30px) rotate(-5deg);
+  transform: translate(70px, -30px) rotate(-5deg);
+}
+
+
