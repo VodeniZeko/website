@@ -22,21 +22,91 @@
 
 }
 
+.page-top {
+display: flex;
+justify-content: flex-end;
+}
+
 .inner-top {
-    display: inline-flex;
-    justify-content: flex-end;
-    width: auto;
+    width:auto;
+    display: inline-block;
+    align-content: flex-end;
     align-content: space-around;
 }
 
-.social {
-    background-color: blue;
-    width: 20px;
-    height: 20px;
-    margin:1em;
-    position: relative;
-    padding-right: 2em;
 
+.inner-second {
+    width:30em;
+    height:auto;
+     align-self: center; 
+     border: 1em red;
+    align-content: space-around;
+}
+
+.inner-second-top {
+    width:28.4em;
+    height:2em;
+    background-color: white;
+    margin-bottom:-em;
+    align-self: center;
+    text-align: center;
+}
+
+.intext {
+  font-family: monospace;
+  font-size: 1.2em;
+  padding-top: .5em;
+  color: black;
+}
+
+.type-box {
+ height: 20em;
+ width: 28em;
+ border-style:solid;
+ border-color: white ;
+ background-color: black;
+ align-self: center;
+}
+
+.spn{
+     line-height: 23px;
+      white-space: pre;
+      padding: 0;
+      margin: 2;
+     display: inline-block;
+     font-family: 'Monaco', 'Inconsolata', 'Ubuntu Mono', monotype;
+     color: white;
+
+}
+.violet {
+  color: rgb(122,130,151)
+}
+.white{
+  color: #fff
+}
+.green{
+  color: rgb(134,179,138)
+}
+  
+.yellow{
+color: rgb(221,202,96);
+}   
+        
+  
+.typed-cursor{
+  color: white
+  opacity: 1
+  -webkit-animation: blink 0.7s infinite
+  -moz-animation: blink 0.7s infinite
+  animation: blink 0.7s infinite
+ 
+@keyframes blink
+  0%  
+    opacity: 1
+  50% 
+    opacity: 0
+  100% 
+    opacity: 1
 }
 
 p {

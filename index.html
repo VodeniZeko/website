@@ -8,21 +8,33 @@
 
 	<div class="page-top">
 		<div class="inner-top">
-			<div class="social">li</div>
-			<div class="social">tw</div>
-			<div class="social">git</div>	
+			<ul class="navigation">
+			  <li><a href="#">Home</a></li>
+			  <li><a href="#">About</a></li>
+			  <li><a href="#">Products</a></li>
+			  <li><a href="#">Contact</a></li>
+			</ul>
 		</div>
 	</div>
 
 	<div class="page-first">
 		<div class="inner-first">
-			<p class="text-first">HI FROM FIRST </p>
+			<!-- <div id="typed-strings"> 
+				  <h6><span id="typed"></span></h6>
+				</div> -->
 		</div>
 	</div>
 
 	<div class="page-second">
 		<div class="inner-second">
-			<p class="text-second">HI FROM SECOND</p>
+			<div class="inner-second-top">
+				<p class="intext">Text Editor</p>
+			</div>
+			<div class="type-box">
+				<div id="typed-strings"> 
+				  ><span class="spn" id="typed"></span>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -35,12 +47,16 @@
     <div class="welcome-line line-e">
     </div>
   </div>
-
-  
-
-
-<script type="text/javascript" src="script.js" ></script>
-
+<script src="typed.js"></script>
+<script src="script.js" ></script>
+<script>
+  var typed = new Typed('#typed', {
+	strings:["var <span class='violet'>developer</span> =  <span class='white'>\u007B^400 </span>\n <span class='violet'>firstName</span><span class='white'>:</span> <span class='green'>'Edvin'</span><span class='white'>,</span> \n <span class='violet'>lastName</span><span class='white'>:</span> <span class='green'>'Saletovic'</span><span class='white'>,</span> \n <span class='violet'>skills</span><span class='white'>:</span> \n   <span class='violet'>HTML5</span><span class='white'>:</span> <span class='yellow'>true</span><span class='white'>,</span> \n   <span class='violet'>CSS3</span><span class='white'>: </span><span class='yellow'>true</span><span class='white'>,</span> \n   <span class='violet'>JavaScript</span><span class='white'>:</span> <span class='yellow'>true</span><span class='white'>,</span> \n   <span class='violet'>React</span><span class='white'>:</span> <span class='yellow'>true</span><span class='white'>,</span> \n <span class='violet'>tools</span><span class='white'>:</span> \n   <span class='violet'>git</span><span class='white'>:</span> <span class='yellow'>true</span><span class='white'>,</span> \n   <span class='violet'>gulp</span><span class='white'>:</span> <span class='yellow'>true</span><span class='white'>,</span> \n   <span class='violet'>sass</span><span class='white'>:</span> <span class='yellow'>true</span><span class='white'>,</span> \n   <span class='violet'>pugJade</span><span class='white'>:</span> <span class='yellow'>true</span> \n <span class='white'>\u007D</span>  ", "hire(developer)<span class='white'>;</span>^1000"],
+	typeSpeed: 40,
+    backSpeed: 0,
+    loop:true
+  });
+</script>
 </body>
 </html>
 

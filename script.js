@@ -1,3 +1,14 @@
+// document.addEventListener('DOMContentLoaded', function(){
+//   Typed.new("#typed-strings", {
+//       strings: ["var <span class='violet'>developer</span> =  <span class='white'>\u007B^400 </span>\n <span class='violet'>firstName</span><span class='white'>:</span> <span class='green'>'Edvin'</span><span class='white'>,</span> \n <span class='violet'>lastName</span><span class='white'>:</span> <span class='green'>'Saletovic'</span><span class='white'>,</span> \n <span class='violet'>skills</span><span class='white'>:</span> \n   <span class='violet'>HTML5</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>CSS3</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>basicJavaScript</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>jQuery</span><span class='white'>:</span> true<span class='white'>,</span> \n <span class='violet'>tools</span><span class='white'>:</span> \n   <span class='violet'>git</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>gulp</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>sass</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>pugJade</span><span class='white'>:</span> true \n <span class='white'>\u007D</span>  ", "hire(developer)<span class='white'>;</span>^1000"],
+//       typeSpeed: 2,
+//       showCursor: true,
+//       cursorChar: "|",
+//       loop: true,
+//       loopCount: null,
+//       backSpeed: 30
+//     });
+//   });
 
 // document.addEventListener('DOMContentLoaded', function() {
 //   Typed.new('.type', {
@@ -119,17 +130,6 @@
 // });
 
 
-// $(function(){
-//     $(".text").typed({
-//       strings: ["var <span class='violet'>developer</span> =  <span class='white'>\u007B^400 </span>\n <span class='violet'>firstName</span><span class='white'>:</span> <span class='green'>'Edvin'</span><span class='white'>,</span> \n <span class='violet'>lastName</span><span class='white'>:</span> <span class='green'>'Saletovic'</span><span class='white'>,</span> \n <span class='violet'>skills</span><span class='white'>:</span> \n   <span class='violet'>HTML5</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>CSS3</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>basicJavaScript</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>jQuery</span><span class='white'>:</span> true<span class='white'>,</span> \n <span class='violet'>tools</span><span class='white'>:</span> \n   <span class='violet'>git</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>gulp</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>sass</span><span class='white'>:</span> true<span class='white'>,</span> \n   <span class='violet'>pugJade</span><span class='white'>:</span> true \n <span class='white'>\u007D</span>  ", "hire(developer)<span class='white'>;</span>^1000"],
-//       typeSpeed: 2,
-//       showCursor: true,
-//       cursorChar: "|",
-//       loop: true,
-//       loopCount: null,
-//       backSpeed: 30
-//     });
-//   });
 
 
 
@@ -152,7 +152,7 @@
 //     'transform': translate
 //   });
 
-//   window.requestAnimationFrame(moveBackground);
+//   window.requestAnimationFramev(moveBackground);
 // }
 
 // $(window).on('mousemove click', function(e) {
@@ -165,3 +165,5 @@
 // });
 
 // moveBackground();
+
+
