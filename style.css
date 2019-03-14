@@ -1,5 +1,5 @@
 body {
-  background-color: #BDBDBD;
+background: linear-gradient(to bottom, #6E6E6E,  #BDBDBD);
 }
 
 .page-top, .page-first, .page-second, .page-third {
@@ -16,7 +16,7 @@ body {
 .page-top {
   background: linear-gradient(to bottom, #6E6E6E,  #BDBDBD);
   display: flex;
-  box-shadow:-3px -16px 20px 9px #6E6E6E;
+  /*box-shadow:-3px -16px 20px 9px #6E6E6E;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -28,6 +28,7 @@ body {
   display: -webkit-flex;
   flex-flow: row wrap;
   text-align: center;
+  out
  
 
    /*background-image: url(https://media.giphy.com/media/3o7aDcrsww5Ybp18hq/giphy.gif);*/
@@ -82,48 +83,85 @@ margin-right:auto;
 
 .page-first {
   display: flex;
-  height: 40em;
+  height: 30em;
+  justify-content: center;
+  justify-content: space-around;
+  background: linear-gradient(to bottom,#BDBDBD, #CDCCCC);
+/* #CECDCD*/
+}
+.inner-left{
+  background:#A4A4A4;  
+  width: 20em;
+  margin: 2em;
+}
+
+.inner-mid {
+  background: #A4A4A4;
+  width: 20em;
+  margin: 2em; 
+}
+.inner-right{
+  background: #A4A4A4; 
+  width: 20em;
+  margin: 2em;
+}
+h1 {
+  text-align: center;
+  font:2em;
+  align-self: center;
 }
 
  .page-second {
    height: 65em;
    display: flex;
+
+/*   https://www.technotification.com/wp-content/uploads/2018/04/software-developer-vs-software-engineer.jpg
+*/   
    background-image: url("https://www.technotification.com/wp-content/uploads/2018/04/software-developer-vs-software-engineer.jpg");
    background-attachment: fixed;
    background-repeat: no-repeat;
 }
 
 
-
-/*.inner-top-mid {
-  width: 30em;
-  height: 30em;
-  position: absolute;
-  margin-left: 300px;
-  background-image: url(http://pixelcurse.com/wp-content/uploads/2011/01/handsholding3.jpg);
-}*/
-
 .page-second {
+  display: flex;
 justify-content: center;
+justify-content: space-between;
+
 }
 
-.inner-second {
+.second-one {
     width:30em;
-    position: absolute;
+    /*position: absolute;*/
     height:auto;
      align-self: center; 
      border: 1em red;
-    align-content: space-around;
+     margin-left: 12%;
+    /*align-content: space-around;*/
 
 }
 
-.inner-second-top {
+.second-one-top {
     width:28.4em;
     height: 2em;
     background-color: white;
     margin-bottom:-em;
     align-self: center;
     text-align: center;
+
+}
+
+.second-two {
+  background:#BDBDBD;
+  width: 50%;
+  
+/*  background-size: cover;*/
+  /*margin-right:1.2em;*/ 
+}
+
+img {
+width:100%;
+height:100%;
 
 }
 
@@ -199,43 +237,27 @@ p {
 .featured {
   width: auto;
   margin: 0 auto;
+  height: 67em;
+  background: linear-gradient(to bottom,#CDCCCC,#6E6E6E );
+  margin-top:-1.7em;
 }
 
-@media(max-width: 800px) {
-  .featured {
-    width: auto;
-  }
-}
 
 .featured-title {
   width: 100%;
   text-align: center;
+  padding-top: 3em;
 }
 
 .featured-title h1 {
   font-family: "Montserrat";
   font-size: 40px;
   text-transform: capitalize;
-  letter-spacing: 7px;
+  letter-spacing: 0.4em;
 }
 
-.welcome-line {
-  position: absolute;
-  height: 2px;
-  background-color: #f1e8dc;
-  z-index: -10;
-}
 
-.line-d {
-  width: auto;
-  -webkit-transform: translate(150px, 0px) rotate(20deg);
-  transform: translate(150px, 0px) rotate(20deg);
-}
 
-.line-e {
-  width: auto;
-  -webkit-transform: translate(70px, -30px) rotate(-5deg);
-  transform: translate(70px, -30px) rotate(-5deg);
-}
+
 
 
