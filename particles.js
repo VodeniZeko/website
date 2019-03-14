@@ -1,3 +1,11 @@
+/* -----------------------------------------------
+/* Author : Vincent Garreau  - vincentgarreau.com
+/* MIT license: http://opensource.org/licenses/MIT
+/* Demo / Generator : vincentgarreau.com/particles.js
+/* GitHub : github.com/VincentGarreau/particles.js
+/* How to use? : Check the GitHub README
+/* v2.0.0
+/* ----------------------------------------------- */
 
 var pJS = function(tag_id, params){
 
@@ -12,7 +20,7 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 80,
         density: {
           enable: true,
           value_area: 800
@@ -47,7 +55,7 @@ var pJS = function(tag_id, params){
         }
       },
       size: {
-        value: 20,
+        value: 50,
         random: false,
         anim: {
           enable: false,
@@ -84,11 +92,11 @@ var pJS = function(tag_id, params){
       events: {
         onhover: {
           enable: true,
-          mode: 'grab'
+          mode: 'push'
         },
         onclick: {
           enable: true,
-          mode: 'push'
+          mode: 'grab'
         },
         resize: true
       },
