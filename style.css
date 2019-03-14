@@ -2,6 +2,14 @@ body {
   background-color: #f2f2f2;
 }
 
+.page-top, .page-first, .page-second, .page-third {
+    height: 65em;
+    display: flex;
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
 
 .page-top {
   background: linear-gradient(0deg, #4e4376,  #2b5876);
@@ -12,8 +20,6 @@ body {
   background-position: 50% 50%;
   justify-content:flex-end;
   list-style-type: none;
-     /*text-indent: 21px;
-  line-height: 1699px;*/
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -25,11 +31,14 @@ body {
    /*background-image: url(https://media.giphy.com/media/3o7aDcrsww5Ybp18hq/giphy.gif);*/
 }
 
+        /*social media divs*/
+
 .flex-item {
   background: tomato;
-  width: 3em;
-  height: 3em;
- margin: .5em;
+  width: 2em;
+  height: 2em;
+ margin-top: 1em;
+ padding-right: 2.5em;
   background: transparent;
   color: white;
   font-weight: bold;
@@ -37,7 +46,7 @@ body {
   text-align: center;
 }
 
-.one {
+.two {
   align-self: center;
   flex-grow:0.4;
   position: relative;
@@ -46,23 +55,20 @@ body {
   text-indent: 20px;
   line-height: 1100px;
   text-align: left;
-/*  background-image: url(http://pixelcurse.com/wp-content/uploads/2011/01/handsholding3.jpg);
-*/  
+
 }
 
+.one {
+margin-right:auto;
+}
+
+
+      /*END OF social media divs*/
 
  .page-second {
    height: 65em;
    display: flex;
    background-image: url("https://www.technotification.com/wp-content/uploads/2018/04/software-developer-vs-software-engineer.jpg");
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-}
-.page-top, .page-first, .page-second, .page-third {
-    height: 65em;
-    display: flex;
-    background-size: cover;
-   background-position: center;
    background-attachment: fixed;
    background-repeat: no-repeat;
 }
@@ -117,6 +123,8 @@ justify-content: center;
  align-self: center;
 }
 
+   /*typed.js in text editor*/
+
 .spn{
      line-height: 23px;
       white-space: pre;
@@ -164,7 +172,7 @@ p {
 }
 
 
-
+    /*END OF typed.js in text editor*/
 
 
 
